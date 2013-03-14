@@ -780,6 +780,7 @@
 			var coming = {},
 				obj,
 				href,
+				wrapCSS,
 				type,
 				margin,
 				padding;
@@ -856,6 +857,7 @@
 
 			type = coming.type;
 			href = coming.href;
+			wrapCSS = coming.wrapCSS;
 
 			if (!type) {
 				F.coming = null;
@@ -1056,6 +1058,7 @@
 				type,
 				scrolling,
 				href,
+				wrapCSS,
 				embed;
 
 			F.hideLoading();
@@ -1085,6 +1088,7 @@
 			current   = coming;
 			content   = coming.content;
 			type      = coming.type;
+			wrapCSS   = coming.wrapCSS;
 			scrolling = coming.scrolling;
 
 			$.extend(F, {
