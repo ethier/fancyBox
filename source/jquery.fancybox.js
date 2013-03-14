@@ -260,6 +260,7 @@
 						obj = {
 							href    : element.data('fancybox-href') || element.attr('href'),
 							title   : element.data('fancybox-title') || element.attr('title'),
+							wrapCSS : element.data('fancybox-wrapcss'),
 							isDom   : true,
 							element : element
 						};
