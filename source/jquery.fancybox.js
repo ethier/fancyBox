@@ -244,6 +244,7 @@
 				var obj = {},
 					href,
 					title,
+					wrapCSS,
 					content,
 					type,
 					rez,
