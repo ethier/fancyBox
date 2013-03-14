@@ -277,6 +277,7 @@
 
 				href  = opts.href  || obj.href || (isString(element) ? element : null);
 				title = opts.title !== undefined ? opts.title : obj.title || '';
+				wrapCSS = opts.wrapCSS !== undefined ? opts.wrapCSS : obj.wrapCSS || '';
 
 				content = opts.content || obj.content;
 				type    = content ? 'html' : (opts.type  || obj.type);
@@ -340,7 +341,8 @@
 					type     : type,
 					content  : content,
 					title    : title,
-					selector : selector
+					selector : selector,
+					wrapCSS  : wrapCSS
 				});
 
 				group[ i ] = obj;
